@@ -1,0 +1,198 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+nav{
+	width:100%;
+	height: 13vh;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	text-transform: uppercase;
+	background-color: rgb(29, 122, 165);	
+	color:white;
+}	
+.left-nav{
+    width:60%;
+    display:flex;
+	align-items:center;
+}
+.left-nav .logo{
+	width:20%;
+    text-align:center;
+    margin:0px 5%;
+}
+.left-nav .menu{
+	width:50%;
+	display:flex;
+	justify-content: space-between;
+}
+.left-nav .menu a{
+	text-decoration:none;
+	color:white;
+}
+.right-nav{
+    width:40%;
+    text-align:right;
+    margin-right:30px;
+}
+.right-nav .sign-in a{
+    border:1px solid white;
+    text-decoration:none;
+    color:white;
+    padding: 8px;
+}
+
+/*main section*/
+.sign-in-box{
+	margin:50px auto;
+	border:1px solid #dbe2e8;
+	box-shadow: 2px 2px 3px 0 rgba(117,124,129,.12);
+	max-width: 620px;
+	width:50%;
+}
+.divider{
+	display:flex;
+}
+p{
+	text-align:center;
+	padding:15px;
+}
+.divider a{
+	font-size:1.2rem;
+	text-align:center;
+	padding:15px;
+	text-decoration:none;
+}
+.sign-up-option{
+	width:50%;
+	cursor:pointer;
+	background: #fafbfc;
+	border-right:1px solid #dbe2e8;
+	border-bottom:1px solid #dbe2e8;
+}
+.sign-up-option a{
+	padding:15px;
+	color: #7d97ad;
+	display:block;
+	margin:auto;
+}
+.sign-in-option{
+	width:50%;
+	cursor:pointer;
+}
+.sign-in-option a{
+	padding:15px;
+	color: black;
+	display:block;
+	margin:auto;
+}
+.sign-up-option:hover{
+	box-shadow: 2px 2px 3px 0 rgba(117,124,129,.12);
+}
+
+.sign-in-banner{
+	width:80%;
+	margin:auto;
+}
+.heading{
+	width:90%;
+	margin:auto;
+	font-size:1.7rem;
+	margin-top:15px;
+}
+.social-sign-in{
+	display:flex;
+	margin:auto;
+	width:90%;
+	margin-bottom:30px;
+	font-size:1.1rem;
+	color:#757c81;
+	cursor:pointer;
+}
+.social-sign-in .google-sign-in{
+	box-shadow: 0 1px 2px rgba(0,0,0,.08), 0 1px 4px rgba(0,0,0,.12);
+	width:50%;
+	margin:0px auto;
+	text-align:center;
+	margin-right:10px;
+	border-radius: 4px;
+}
+.social-sign-in .fb-sign-in{
+	box-shadow: 0 1px 2px rgba(0,0,0,.08), 0 1px 4px rgba(0,0,0,.12);
+	width:50%;
+	margin:0px auto;
+	text-align:center;
+	margin-left:10px;
+	border-radius: 4px;
+}
+.or-separator{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.or-separator-line {
+	width: 250px;
+	margin:10px 10px;
+	
+}
+.or-separator-text{
+    transform: translateY(-3px);
+	min-width: 32px;
+	text-align:center;
+	font-size:1.2rem;
+}
+hr{
+	height: 1px;
+    background-color: #dbe2e8;
+    border: none;
+	box-sizing: content-box;
+	overflow: visible;
+	display: block;
+    
+}
+.form{
+	width:75%;
+	margin: 25px auto;
+}
+.form input{
+	display:block;
+	width:100%;
+	margin:10px 0px;
+	font-size:1.1rem;
+	padding:6px;
+}
+.form button{
+	display:block;
+	width:50%;
+	background-color:#02B3E4;
+	margin:auto;
+	color:white;
+	font-size:1.3rem;
+	border:none;
+	border-radius:4px;
+	padding:6px;
+}
+.form a{
+	display:block;
+	width:80%;
+	color:#02B3E4;
+	font-size:1.2rem;
+	margin:10px auto;
+	text-align:center;
+	text-decoration:none;
+}
+.create-account a{
+	display:block;
+	width:60%;
+	margin:auto;
+	text-align:center;
+	color:#02B3E4;
+	font-size:1.2rem;
+	text-decoration:none;
+	margin-bottom:1.5rem;
+}
+.create-account p{
+	font-size:1.2rem;
+}
