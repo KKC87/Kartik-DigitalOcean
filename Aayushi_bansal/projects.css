@@ -1,0 +1,128 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+nav{
+	width:100%;
+	height: 13vh;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	text-transform: uppercase;
+	background-color: #232f3b;	
+	color:white;
+}	
+.left-nav{
+    width:60%;
+    display:flex;
+	align-items:center;
+}
+.left-nav .logo{
+	width:20%;
+    text-align:center;
+    margin:0px 5%;
+}
+.left-nav .menu{
+	width:50%;
+	display:flex;
+	justify-content: space-between;
+}
+.left-nav .menu a{
+	text-decoration:none;
+	color:white;
+}
+.right-nav{
+    width:40%;
+    text-align:right;
+    margin-right:30px;
+}
+.right-nav .sign-in a{
+    border:1px solid white;
+    text-decoration:none;
+    color:white;
+    padding: 8px;
+}
+.search-nav{
+    background-color:#203e5c;
+}
+.search-box{
+    display:flex;
+    margin:0px auto;
+    text-align:center;
+    background:white;
+    height:35px;
+    border-radius:40px;
+    padding:10px;
+}
+.search-button{
+    color:black;
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    background:white;    
+}
+.search-text{
+    border:none;
+    background:none;
+    padding:0;
+    outline:none;
+    color:black;
+    font-size: 1rem;
+    line-height:40px;
+    width:240px;
+}
+body{
+    background-color:rgb(246, 253, 234);
+}
+/*projects section*/
+.projects{
+    display:flex;
+    flex-wrap:wrap; 
+	justify-content:space-around;
+}
+.project-box{
+    width:45%;
+    height:180px;
+    margin-top:50px;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.5);
+    background-color:white;
+}
+.text-box{
+    margin:20px 20px;
+}
+.text-box p span{
+    color:grey;
+}
+.text-box h1{
+    margin-bottom:5px;
+    margin-top:15px;
+}
+.about-project{
+    display:flex;
+    justify-content:space-between;
+}
+.about-project img{
+    width:150px;
+    height:120px;
+    margin-right:40px;
+    margin-top:10px;
+}
+.about-project img:hover{
+    top:50%;
+    left:50%;
+    transition:all 200ms ease-in;
+    transform:scale(3.5);
+    cursor:pointer;
+}
+.project-box a{
+    text-decoration:none;
+    color: rgb(0, 181, 151);   
+}
+.project-box button{
+    border:1px solid rgb(0, 181, 151);
+    padding: 10px 20px;
+    margin:20px 0px;
+  }
+
+
